@@ -12,7 +12,7 @@ st.set_page_config(
     layout='wide')
 
 # Load Data
-main_data = pd.read_csv("https://raw.githubusercontent.com/camelliatea/dicoding-proyek-analisis-data/refs/heads/main/dashboard/main_data.csv")
+main_data = pd.read_csv('https://raw.githubusercontent.com/camelliatea/dicoding-proyek-analisis-data/refs/heads/main/dashboard/main_data.csv')
 main_data['date'] = pd.to_datetime(main_data['date'])
 
 # Helper function untuk menyiapkan DataFrame
@@ -111,7 +111,7 @@ max_date = main_data['date'].max()
 
 with st.sidebar:
     # menambahkan logo perusahaan 'Blue Bike' (fiksi)
-    st.image('bluebike_logo.png')
+    st.image('dashboard/bluebike_logo.png')
 
     # mengatur filter
     st.header('Filter: ')
