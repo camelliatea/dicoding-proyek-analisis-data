@@ -12,7 +12,7 @@ st.set_page_config(
     layout='wide')
 
 # Load Data
-main_data = pd.read_csv("main_data.csv")
+main_data = pd.read_csv("https://raw.githubusercontent.com/camelliatea/dicoding-proyek-analisis-data/refs/heads/main/dashboard/main_data.csv")
 main_data['date'] = pd.to_datetime(main_data['date'])
 
 # Helper function untuk menyiapkan DataFrame
