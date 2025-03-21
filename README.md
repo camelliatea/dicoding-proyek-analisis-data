@@ -22,7 +22,7 @@ or visit the following links
 https://bluebikedashboard.streamlit.app/
 
 ## Dashboard Previews
-![alt text](image.png)
-![alt text](image-2.png)
-![alt text](image-1.png)
+![alt text](preview/image.png)
+![alt text](preview/image-2.png)
+![alt text](preview/image-1.png)
 
